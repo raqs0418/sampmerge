@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 		RelativeLayout layout = (RelativeLayout)findViewById(R.id.img);
 		layout.setBackgroundResource(R.anim.translate);
 		TransitionDrawable transitionDrawable = (TransitionDrawable)layout.getBackground();
-		transitionDrawable.startTransition(9000);
+		transitionDrawable.startTransition(1000);
 		transitionDrawable.setVisible(false, true);
 		
 		CustomListView listView = (CustomListView) findViewById(R.id.listView);
