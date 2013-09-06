@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.widget.RelativeLayout;
 
@@ -28,6 +29,7 @@ public class MainActivity extends Activity {
 		CustomListView listView = (CustomListView) findViewById(R.id.listView);
 		listView.showNoData();
 		
+		Log.v("test", "test");
 		
 	}
 
